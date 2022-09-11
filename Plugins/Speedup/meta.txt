@@ -1,0 +1,5 @@
+﻿Name      = Speed Up
+Version   = 2.0
+Essentials   = 20
+Credits      = Marin
+Link         = https://www.pokecommunity.com/showthread.php?t=401043

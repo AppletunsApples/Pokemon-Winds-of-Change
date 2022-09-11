@@ -1,0 +1,5 @@
+﻿Name      = Level Caps
+Version   = 1.0
+Essentials = 20.1
+Website   = https://reliccastle.com/resources/categories/7/
+Credits   = Yewchung, Vendily, ClaraDragon, Aiur Jordan & Golisopod User

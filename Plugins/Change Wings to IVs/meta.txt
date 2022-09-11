@@ -1,0 +1,5 @@
+Name         = Change Feathers to IVs
+Version      = 1.0.0
+Credits      = DarkYuan
+Essentials   = 20.1
+Link         = https://reliccastle.com/resources/969/
