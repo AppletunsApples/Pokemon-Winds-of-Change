@@ -1,0 +1,5 @@
+Name       = EVs and IVs in Summary v20
+Version    = 1.0.1
+Essentials = 20
+Website    = https://reliccastle.com/resources/703/
+Credits    = Deoxysprime, SoulfulLex for Compatibility for v20
