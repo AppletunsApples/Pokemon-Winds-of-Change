@@ -1,0 +1,102 @@
+*a (X) by a move's name means it is available in the current game release.
+
+HMs:
+
+
+TMs:
+
+Tutors:
+Covet
+Helping Hand
+Hex
+Heat Wave
+Brave Bird
+Water Pledge
+Fire Pledge
+Grass Pledge
+Water Pulse
+Shock Wave
+Heat Crash
+Dynamic Punch
+Mega Punch
+Drain Punch
+Thunder Punch
+Fire Punch
+Ice Punch
+Focus Punch
+Icy Wind
+Electroweb
+Encore
+Play Rough
+Pollen Puff
+Helping Hand
+Thunder Fang
+Fire Fang
+Psychic Fang
+Ice Fang
+Crunch
+Toxic Spikes
+Trick
+Draco Meteor
+Earth Power
+Heavy Slam
+Dragon Pulse
+Sky Attack
+Stored Power
+Superpower
+Tailwind
+Stealth Rock
+Zen Headbutt
+Gunk Shot
+Blaze Kick
+Bug Bite
+Bug Buzz
+Close Combat
+Cosmic Power
+Snatch
+Signal Beam
+Power Gem
+Power Whip
+Pain Split
+Megahorn
+Liquidation
+Iron Tail
+Iron Head
+Hyper Voice
+High Horsepower
+Heal Bell
+Foul Play
+Endure
+Electro Ball
+Earth Power
+Drill Run
+Cosmic Power
+Close Combat
+Aura Sphere
+Mirror Coat
+Counter
+Terrain Pulse
+Phantom Force
+Snore
+Headbutt
+Steel Beam
+Frenzy Plant
+Blast Burn
+Hydro Cannon
+Misty Terrain
+Psychic Terrain
+Electric Terrain
+Grassy Terrain
+Expanding Force
+Steel Roller
+Meteor Beam
+Misty Explosion
+Grassy Glide
+Rising Voltage
+Skitter Smack
+Burning Jealousy
+Lash Out
+Poltergeist
+Corrosive Gas
+Coaching
+Detect

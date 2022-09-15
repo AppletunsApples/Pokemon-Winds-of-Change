@@ -1,0 +1,20 @@
+EVOLUTIONS:
+- Meltan now evolves with the Metal Coat into Melmetal and Scyther now evolves with the Black Augurite into Kleavor.
+-> Any Pokemon that evolve via trade require the Linking Cord.
+--> The exception to the above is Shelmet and Karrablast, which require Karrablast and Shelmet respectively to be in the party.
+
+- Toxel and Kubfu evolve differently as well.
+-> Kubfu into Urshifu Single (Dusk Stone) OR Water Stone (Urshifu Rapid)
+-> Toxel into Amped Toxtricity (Throat Spray) OR Low Key Toxtricity (Metronome)
+
+- Pikachu now evolves into Alolan Raichu through the Alolan Pancakes.
+
+- Milcery now evolves via Moon Stone.
+
+- Eevee now evolves into Umbreon with the Moon Stone, Espeon with the Sun Stone, and Sylveon with the Shiny Stone.
+
+- Nosepass now can evolve via the Thunder Stone.
+
+- Amaura and Tyrunt can now alternatively evolve with the Sun Stone and Moon Stone respectively.
+
+- Cherubi evolves into Sinnohian Cherrim with a Sun Stone and Artisian Cherrim with a Water Stone.

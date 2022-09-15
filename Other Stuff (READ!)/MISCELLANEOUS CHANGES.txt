@@ -1,0 +1,9 @@
+Bag Pockets are now as follows:
+- Mundane
+- Evolutionary
+- Poke Balls 
+- CDs
+- Berries 
+- Field
+- Battle Enhancers
+- Key Items

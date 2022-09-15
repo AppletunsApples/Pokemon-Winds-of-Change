@@ -1,0 +1,14 @@
+POKEBALL CHANGES:
+- The Cherish Ball now has a higher chance to catch Pokemon in the Undiscovered egg group.*
+- The Geode Ball is a more expansive replacement of the Moon Ball, covering all evolution stones rather than just one.*
+- The Sport Ball additionally has a higher chance of capturing dual-typed Pokemon.
+- The Park Ball has a higher chance to catch monotyped Pokemon.
+**note: These 4 items still need their effects updataed, which will be done by V1-2 or a patch between then.
+
+HELD ITEM CHANGES:
+- Blank Plate now acts as a type-boosting item for the Normal type along with its normal effects.
+
+EVOLUTIONARY ITEM CHANGES:
+- Linking Cord from PLA will now work for every trade evolution+Kleavor.
+
+GENERAL CHANGES:
