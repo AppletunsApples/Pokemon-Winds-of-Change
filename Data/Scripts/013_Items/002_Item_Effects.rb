@@ -172,6 +172,15 @@ ItemHandlers::UseInField.add(:WHITEFLUTE, proc { |item|
   next true
 })
 
+ItemHandlers::UseFromBag.add(:POKEMONBOXLINK, proc { |item|
+    if ($player.has_box_link || $bag.has?(:POKEMONBOXLINK)) &&
+       !$game_switches[Settings::DISABLE_BOX_LINK_SWITCH] &&
+       !$game_map.metadata&.has_flag?("DisableBoxLink")
+   pbPokeCenterPC
+   next 1
+  end
+})
+
 ItemHandlers::UseInField.add(:HONEY, proc { |item|
   pbUseItemMessage(item)
   pbSweetScent
