@@ -120,7 +120,7 @@ end
 #===============================================================================
 # Format text
 #===============================================================================
-FORMATREGEXP = /<(\/?)(c|c2|c3|o|fn|br|fs|i|b|r|pg|pog|u|s|icon|img|ac|ar|al|outln|outln2)(\s*\=\s*([^>]*))?>/i
+FORMATREGEXP = /<(\/?)(c|c2|c3|o|fn|br|fs|i|b|r|pg|pog|u|s|icon|item|img|ac|ar|al|outln|outln2)(\s*\=\s*([^>]*))?>/i
 
 def fmtescape(text)
   if text[/[&<>]/]
