@@ -1,5 +1,22 @@
 #===============================================================================
-# Items stolen from wild Pokémon are kept after the battle and placed into the bag.
+# Stolen Item Icons
+#===============================================================================
+=begin
+it'd probably be simpler to use the ItemIconSprite class rather than manually looking up the graphic. (it'd also account for animated item sprites)
+(also, that self.try_get is going to throw you an error - you want cc if you're not working in the GameData modue)
+=end
+
+    def Sprite(item)
+      return "Graphics/Items/%s" if item.nil?
+      item_data = GameData::Item.try_get(item)
+      return "Graphics/Items/000" if item_data.nil?
+      # Check for files
+      ret = sprintf("Graphics/Items/%s", item_data.id)
+      return ret if pbResolveBitmap(ret)
+    end
+
+#===============================================================================
+# Thief and Covet update.
 #===============================================================================
 class Battle::Move::UserTakesTargetItem < Battle::Move
   def pbEffectAfterAllHits(user, target)
@@ -19,7 +36,7 @@ class Battle::Move::UserTakesTargetItem < Battle::Move
     else
       target.pbRemoveItem(false)
     end
-    @battle.pbDisplay(_INTL("{1} stole {2}'s {3}!", user.pbThis, target.pbThis(true), itemName))
+    @battle.pbMessage(_INTL("{1} stole {2}'s item <icon = {3}> {4} and sent it to {5}'s bag.", user.pbThis, target.pbThis(true), user.item_id, itemName, $Trainer.name, $Trainer.name{4}))
     user.pbHeldItemTriggerCheck
-  end
+  end.name
 end
