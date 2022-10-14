@@ -7,7 +7,7 @@
 # when an item is found for the first time.
 #-------------------------------------------------------------------------------
 
-WINDOWSKIN_NAME = "" # set for custom windowskin
+WINDOWSKIN_NAME = "speech hgss 18" # set for custom windowskin
 
 #-------------------------------------------------------------------------------
 # Save data registry
