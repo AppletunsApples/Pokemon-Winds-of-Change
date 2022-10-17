@@ -1,0 +1,4 @@
+Name         = Alphabetized Bag
+Version      = 1.0
+Credits      = Nineage
+Essentials   = 20.1

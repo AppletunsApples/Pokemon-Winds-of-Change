@@ -1,4 +1,0 @@
-Name         = Hidden Abilities by Percentage
-Version      = 2.0
-Website      = https://reliccastle.com/resources/249/
-Credits      = [Mashirosakura, Scyl, NettoHikari, Marin], [Maq47, StarWolff, Kotaro]

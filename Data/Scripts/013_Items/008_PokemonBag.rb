@@ -93,7 +93,7 @@ class PokemonBag
     ret = ItemStorageHelper.add(@pockets[pocket],
                                 max_size, Settings::BAG_MAX_PER_SLOT, item_data.id, qty)
     if ret && Settings::BAG_POCKET_AUTO_SORT[pocket - 1]
-      @pockets[pocket].sort! { |a, b| GameData::Item.get(a[0]).name <=> GameData::Item.get(b[0]).name }
+      @pockets[pocket].sort! { |a, b| GameData::Item.keys.index(a[0]) <=> GameData::Item.keys.index(b[0]) }
     end
     return ret
   end
