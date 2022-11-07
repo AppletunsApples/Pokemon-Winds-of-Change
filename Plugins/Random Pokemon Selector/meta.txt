@@ -1,5 +1,0 @@
-Name       = Random Pokemon Selector
-Version    = 1.0.1
-Essentials = 20.1
-Website    = https://reliccastle.com/resources/693/
-Credits    = ThatWelshOne_

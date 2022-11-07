@@ -3395,6 +3395,14 @@ Price = 10000
 FieldUse = OnPokemon
 Description = A patch that allows a Pokémon with a regular Ability to have a rare Ability.
 #-------------------------------
+[ABILITYDISC]
+Name = Ability Disc
+NamePlural = Ability Disc
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = A computer disc that allows a Pokémon to choose between all Abilities when it is used.
+#-------------------------------
 [EXPCANDYXS]
 Name = Exp. Candy XS
 NamePlural = Exp. Candy XSs
