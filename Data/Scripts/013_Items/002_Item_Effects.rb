@@ -1091,6 +1091,19 @@ ItemHandlers::UseOnPokemon.add(:ABILITYPATCH, proc { |item, qty, pkmn, scene|
   next false
 })
 
+ItemHandlers::UseOnPokemon.add(:ABILITYDISC, proc { |item, qty, pkmn, scene|
+  if scene.pbConfirm(_INTL("Do you want to change {1}'s Ability?", pkmn.name))
+    abils = pkmn.getAbilityList
+    ability_commands = []
+    abil_cmd = 0
+    for i in abils
+      ability_commands.push(((i[1] < 2) ? "" : "(H) ") + GameData::Ability.get(i[0]).name)
+    end
+    cmd= pbMessage("Which ability do yo want for your Pokémon?",ability_commands,0,nil,0)
+    pkmn.ability = abils[cmd][0]
+  end
+})
+
 ItemHandlers::UseOnPokemon.add(:GRACIDEA, proc { |item, qty, pkmn, scene|
   if !pkmn.isSpecies?(:SHAYMIN) || pkmn.form != 0 ||
      pkmn.status == :FROZEN || PBDayNight.isNight?
