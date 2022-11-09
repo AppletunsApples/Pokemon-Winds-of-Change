@@ -1474,46 +1474,6 @@ MenuHandlers.add(:party_menu_item, :move, {
   }
 })
 
-class Pokemon
-  attr_writer :unlocked_relearner
-  
-  def unlocked_relearner
-    return @unlocked_relearner ||= false
-  end
-end
-
-MenuHandlers.add(:party_menu, :relearner, {
-  "name"      => _INTL("Move Relearner"),
-  "order"     => 50,
-  "effect"    => proc { |screen, party, party_idx|
-    pkmn = party[party_idx]
-    if pkmn.egg?
-      pbMessage(_INTL("You can't use the Move Relearner on an egg."))
-    elsif pkmn.shadowPokemon?
-      pbMessage(_INTL("You can't use the Move Relearner on a shadow Pokémon."))
-    elsif pkmn.unlocked_relearner
-      if !pkmn.can_relearn_move?
-        pbMessage(_INTL("This Pokémon has no moves to relearn."))
-      else
-        pbRelearnMoveScreen(party[party_idx])
-      end
-    else
-      if $bag.has?(:HEARTSCALE)
-        yes = pbConfirmMessage(
-            _INTL("Would you like to unlock the Move Relearner for this Pokémon for 1 Heart Scale?"))
-        if yes
-          pkmn.unlocked_relearner = true
-          $bag.remove(:HEARTSCALE)
-          pbMessage(_INTL("You can now use the Move Relearner for this Pokémon."))
-          pbRelearnMoveScreen(party[party_idx])
-        end
-      else
-        pbMessage(_INTL("You can unlock the Move Relearner for this Pokémon for 1 Heart Scale."))
-      end
-    end
-  }
-})
-
 #===============================================================================
 # Open the party screen
 #===============================================================================
