@@ -154,7 +154,11 @@ class MoveRelearnerScreen
       next if m[0] > pkmn.level || pkmn.hasMove?(m[1])
       moves.push(m[1]) if !moves.include?(m[1])
     end
-    if Settings::MOVE_RELEARNER_CAN_TEACH_MORE_MOVES && pkmn.first_moves
+    GameData::Species.get(pkmn.species).get_egg_moves.each do |m|
+      next if pkmn.hasMove?(m)
+      moves.push(m) if !moves.include?(m)
+    end
+    if $game_switches[Settings::EGGMOVESSWITCH] && pkmn.first_moves
       tmoves = []
       pkmn.first_moves.each do |i|
         tmoves.push(i) if !moves.include?(i) && !pkmn.hasMove?(i)
