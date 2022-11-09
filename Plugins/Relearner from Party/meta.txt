@@ -1,5 +1,0 @@
-Name         = Relearner from Party
-Version      = 1.0
-Credits      = Marin
-Essentials   = 20
-Link         = 
