@@ -116,11 +116,6 @@ module Settings
 
   #=============================================================================
 
-  # Switch for Party Move Relearner allowing Egg Moves.
-  EGGMOVESSWITCH                           = 59
-
-  #=============================================================================
-
   # Whether Repel uses the level of the first Pokémon in the party regardless of
   # its HP (true), or it uses the level of the first unfainted Pokémon (false).
   REPEL_COUNTS_FAINTED_POKEMON             = (MECHANICS_GENERATION >= 6)

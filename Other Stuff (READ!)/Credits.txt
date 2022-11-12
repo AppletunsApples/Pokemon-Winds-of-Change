@@ -42,28 +42,4 @@ Overworld and Battle Graphics:
 [*]EVs/IVs Page - eriedaberrie
 
 Publicly Usable Scripts:
-[*]Better AI System - Not Important
-[*]Trade Evo Item - FL
-[*]Old Fast-Forward Script - Marin
-[*]->Modified Script - Indian Animator
-[*]Custom Pichu and Toxel evolution methods - Vendily
-[*]Difficulty Modes - Vendily
-[*]Nicknaming from Party - TechSkylander1518
-[*]Field Moves by Compatability - Lexor
-[*]ZUD Plugin - Lucidious89
-[*]Multiple Saves - bo4p5687, King MB (Modified Script)
-[*]SWSH Style Item Description - boonzeet
-[*]EVs/IVs Page - eriedaberrie, IndianAnimator
-[*]Encounter List UI - ThatWelshOne_, raZ, Marin, Maruno, Nuri Yuri, PurpleZaffre, Savordez, Vendily
-[*]Quicksaving - Marin, LackDeJurane
-[*]Inverse/Sky Battle Scripts - mej71 (original), bo4p5687 (update)
-[*]Item Maniac - eattwo 
 
-PLA Scripts:
-[*]Original script for Gen 8 Project in v18 and Status sprites       - StCooler
-[*]Adapting the script for v19.1        - PoruousMist, curryofthepast
-[*]Item icons       - AztecCroc
-[*]Pokemon Sprites rip      - KingOfThe-X-Roads
-[*]Pokemon cries rip      - Morningdew
-[*]Pokemon icons       - LuigiTKO
-[*]Follower sprites       - Ezerart
