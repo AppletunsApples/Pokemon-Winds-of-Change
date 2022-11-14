@@ -33,13 +33,27 @@ Compilation of Resources:
 Porting to v19:
 [*]Golisopod User, Maruno
 
-Overworld and Battle Graphics:
-[*]School Tileset - AveonTrainer
+Tileset Graphics:
+[*]School Tileset - PokemonEclipse, seiyou, SpritersResource, Phyromatical 7, Thatsowitty, StarDewValley, KyleDove, ausberge, exiled-shadow, supercow, Aeveontrainer
+
+Overworld Graphics:
 [*]Mega Stone PokeBalls - xUMG
-[*]Anne/Female PC Trainer Sprites - The Swordsman
-[*]Custom Volteon Pause Menu UI (Lugia and Galarian Moltres) - Bylilth
-[*]Bag Screen with Interactable Party - DiegoWT
-[*]EVs/IVs Page - eriedaberrie
 
-Publicly Usable Scripts:
+Battle Graphics:
 
+Public Scripts & Plugins:
+[*]Alphabetized Bag - Nineage
+[*]Easy Text Skip -Amethyst, Kurotsune, ENLS
+[*]EVs/IVs Page - Deoxysprime, SoulfulLex
+[*]Gen 8 Item Descriptions - oonzeet, IndianAnimator
+[*]Gen 8 Pack - Golisopod User, Luka S.J.
+[*]Level Caps - Yewchung, Vendily, ClaraDragon, Aiur Jordan & Golisopod User
+[*]Marin's Map Exporter - Marin
+[*]Marin's Script Utilities - Marin
+[*]Party Relearner - Marin
+[*]Party Renamer - TechSkylander1518
+[*]Speed Up - Marin
+[*]Thieving into Bag - Heart Shots, IndianAnimator
+[*]Trade Evolution Stone - FL
+[*]V20.1 Hotfixes - Maruno
+[*]Wings change IVs - DarkYuan
