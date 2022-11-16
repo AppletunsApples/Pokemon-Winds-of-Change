@@ -38,6 +38,8 @@ Tileset Graphics:
 
 Overworld Graphics:
 [*]Mega Stone PokeBalls - xUMG
+[*]Ace Trainers (Male & Female) - AveonTrainer
+[*]Janitor - MezmerKaiser
 
 Battle Graphics:
 
